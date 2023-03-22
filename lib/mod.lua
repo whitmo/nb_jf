@@ -52,11 +52,12 @@ local function add_kit_player()
 
     note_players["jf kit"] = player
 end
-
+print("ballz")
 local function add_mono_player(idx)
     local player = {
         count = 0,
-        note = nil
+        note = nil,
+        bend = 0
     }
 
     function player:add_params()
